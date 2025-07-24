@@ -54,21 +54,21 @@ const About = () => {
 
         {/* Right Side - Rotating Border + Static Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
-          <Tilt
-  className="max-w-[80vw] aspect-square sm:w-64 md:w-[30rem] border-4 border-blue-700 rounded-full"
-  tiltMaxAngleX={10}
-  tiltMaxAngleY={10}
-  perspective={1000}
-  scale={1.05}
-  transitionSpeed={1000}
-  gyroscope={true}
->
-  <img
-    src={profileImage}
-    alt="Somesh Muduli"
-    className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
-  />
-</Tilt>
+           <Tilt
+            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-blue-700 rounded-full"
+            tiltMaxAngleX={10}
+            tiltMaxAngleY={10}
+            perspective={1000}
+            scale={1.05}
+            transitionSpeed={1000}
+            gyroscope={true}
+          >
+            <img
+              src={profileImage}
+              alt="Somesh Muduli"
+              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+            />
+          </Tilt>
         </div>
       </div>
     </section>
