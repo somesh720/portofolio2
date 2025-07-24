@@ -14,7 +14,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_90dwou1",  // Replace with your EmailJS(is a site) Service ID
-        "template_5js722y",  // Replace with your EmailJS Template ID
+        "template_i0e8kmp",  // Replace with your EmailJS Template ID
         form.current,
         "4lPrS6RRscok3F_hf"  // Replace with your EmailJS Public Key
       )
