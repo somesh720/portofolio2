@@ -20,7 +20,7 @@ const Skills = () => (
   <h2 className="text-4xl font-bold text-white">SKILLS</h2>
   <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
   <p className="text-gray-400 mt-4 text-lg font-semibold">
-    A collection of my technical skills and expertise honed through various projects and experiences
+    A strong collection of technical skills and expertise developed through hands-on experience and diverse projects.
   </p>
 </motion.div>
 
