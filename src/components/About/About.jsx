@@ -39,7 +39,7 @@ const About = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1dSQn4anSrPLYEmIQmYTTG1n2RAE1PUOu/view?usp=drive_link"
+            href="https://somesh-muduli-flowcv-resume-20250817-1.tiiny.site"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
